@@ -27,7 +27,8 @@ Command-Line is an essential tool for software development. We can execute a wid
 
 ✨ Let's start to learn (can use it as a reference guide)🏃‍♂️🏃‍♂️🏃‍♂️...
 
-####✔ Check the Current Directory ➡ `pwd`:
+#### ✔ Check the Current Directory ➡ `pwd`:
+
 On the command line, it's important to know the directory we are currently working on. For that, we can use `pwd` command.
 
 ![Checking the Current Directory](media/pwd.gif)
@@ -60,7 +61,8 @@ Use `ls` command to see the directory is created or not.
 
 I created a **cli-practice** directory in my working directory i.e. **Desktop** directory.
 
-####✔ Move Between Directories ➡ `cd`:
+#### ✔ Move Between Directories ➡ `cd`:
+
 It's used to change directory or to move other directories. To use it type `cd directory_name`.
 
 ![Moving Between Directories](media/cd.gif)
@@ -69,10 +71,12 @@ Can use `pwd` command to confirm your directory name.
 
 Changed my directory to the **cli-practice** directory. And the rest of the tutorial I'm gonna work within this directory.
 
-####✔ Parent Directory ➡ `..`:
+#### ✔ Parent Directory ➡ `..`:
+
 We have seen `cd` command to change directory but if we want to move back or want to move to the parent directory we can use a special symbol `..` after `cd` command, like `cd ..`
 
-####✔ Create Files ➡ `touch`:
+#### ✔ Create Files ➡ `touch`:
+
 We can create an empty file by typing `touch file_name`. It's going to create a new file in the current directory (the directory you are currently in) with your provided name.
 
 ![Creating Files](media/touch.gif)
@@ -81,14 +85,16 @@ I created a **hello.txt** file in my current working directory. Again you can us
 
 Now open your **hello.txt** file in your text editor and write **_Hello Everyone!_** into your **hello.txt** file and save it.
 
-####✔ Display the Content of a File ➡ `cat`:
+#### ✔ Display the Content of a File ➡ `cat`:
+
 We can display the content of a file using the `cat` command. To use it type `cat file_name`.
 
 ![Displaying the Content of a File](media/cat.gif)
 
 Shows the content of my **hello.txt** file.
 
-####✔ Move Files & Directories ➡ `mv`:
+#### ✔ Move Files & Directories ➡ `mv`:
+
 To move a file and directory, we use `mv` command.
 
 By typing `mv file_to_move destination_directory`, you can move a file to the specified directory.
@@ -107,7 +113,8 @@ Yes, we can use multiple directories & files names one after another to create m
 
 Moved my **bye.txt** file into my **css** directory and then moved my **css** directory into my **html** directory.
 
-####✔ Rename Files & Directories ➡ `mv`:
+#### ✔ Rename Files & Directories ➡ `mv`:
+
 `mv` command can also be used to rename a file and a directory.
 
 You can rename a file by typing `mv old_file_name new_file_name` & also rename a directory by typing `mv old_directory_name new_directory_name`.
@@ -116,7 +123,8 @@ You can rename a file by typing `mv old_file_name new_file_name` & also rename a
 
 Renamed my **hello.txt** file to the **hi.txt** file and **html** directory to the **folder** directory.
 
-####✔ Copy Files & Directories ➡ `cp`:
+#### ✔ Copy Files & Directories ➡ `cp`:
+
 To do this, we use the `cp` command.
 
 - You can copy a file by entering `cp file_to_copy new_file_name`.
@@ -133,7 +141,8 @@ _The `-r` option for "recursive" means that it will copy all of the files includ
 
 Here I copied all of the files from the **folder** to **folder-copy**.
 
-####✔ Remove Files & Directories ➡ `rm`:
+#### ✔ Remove Files & Directories ➡ `rm`:
+
 To do this, we use the `rm` command.
 
 - To remove a file, you can use the command like `rm file_to_remove`.
@@ -148,15 +157,17 @@ Here I removed my **hi.txt** file.
 
 I removed my **folder-copy** directory from my **cli-practice** directory i.e. current working directory.
 
-####✔ Clear Screen ➡ `clear`:
+#### ✔ Clear Screen ➡ `clear`:
+
 Clear command is used to clear the terminal screen.
 
-####✔ Home Directory ➡ `~`:
+#### ✔ Home Directory ➡ `~`:
+
 The Home directory is represented by `~`. The Home directory refers to the base directory for the user. If we want to move to the Home directory we can use `cd ~` command. Or we can only use `cd` command.
 
 ---
 
-###🛠 Tools I Used:-
+### 🛠 Tools I Used:-
 
 1. [Fluent Terminal](https://github.com/felixse/FluentTerminal)
 2. [Git Bash Shell](https://git-scm.com)
