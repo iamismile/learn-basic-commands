@@ -52,7 +52,8 @@ Shows all of my files and directories of my **Desktop** directory.
 | ls -l  |               list with the long format                |
 | ls -la |        list long format including hidden files         |
 
-####✔ Create a Directory ➡ `mkdir`:
+#### ✔ Create a Directory ➡ `mkdir`:
+
 We can create a new folder using the `mkdir` command. To use it type `mkdir folder_name`.
 
 ![Creating a Directory](media/mkdir.gif)
