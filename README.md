@@ -19,7 +19,7 @@ Command-Line is an essential tool for software development. We can execute a wid
 
 > **UNIX** command is a type of command that is used in LINUX and macOS.
 
-**To run some basic UNIX command in windows you can download Git Command Line Interface from [Git SCM](https://git-scm.com/).**
+**To run some basic UNIX command in windows you need to download Git Command Line Interface from [Git SCM](https://git-scm.com/).**
 
 ---
 
